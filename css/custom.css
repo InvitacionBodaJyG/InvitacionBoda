@@ -1,0 +1,84 @@
+  /* Start: Google Maps Responsive */
+  .map-responsive {
+    overflow:hidden;
+    padding-bottom:400px; /*Reduce este valor si el mapa fuera muy alto, por ejemplo 250px, puedes usar porcentajes, 50%*/
+    position:relative;
+    height:0;
+  }
+  .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+  
+  /* End: Google Maps Responsive */
+
+  @media only screen and (max-width: 600px) {
+    h1.logo-font.h1perso {
+      font-size: 2rem;
+    }
+  }
+
+  .bg-perso{
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    z-index: 4;
+    /*position: relative;*/
+    overflow: hidden;
+  }
+
+.countdown2_style{
+  font-size: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .countdown2_style{
+    font-size: 2rem;
+  }
+}
+
+.comillas{
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .timeline-date-label{
+margin-bottom: 20px;
+margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .blogpost{
+    margin-bottom: 50px;
+  }
+
+  .blogpost header{
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .timeline{
+    padding: 0 0;
+    margin-top: 10px;
+  }
+}
+
+@font-face {
+  font-family: Gistesy;
+  src: url(../fonts/Gistesy.ttf);
+}
+
+.portada_custom{
+  font-family: 'Great Vibes', cursive;
+  font-size: 5rem;
+  text-transform: none;
+}
