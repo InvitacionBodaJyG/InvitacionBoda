@@ -162,13 +162,13 @@
 /* FINAL */
   
 .bgFinal {
-	background-image: url("../img/CruzTextoPequena.jpg");
+	background-image: url("../img/CruzTexto.jpg");
 	background-position: 50% 50%;
 }
 
 @media only screen and (max-width: 600px) {
 	.bgFinal {
-		background-image: url("../img/CruzTextoPequena.jpg");
+		background-image: url("../img/TextoCelular.jpeg");
 	}
 }
 
