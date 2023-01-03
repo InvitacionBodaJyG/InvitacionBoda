@@ -81,7 +81,7 @@
 
 /* PORTADA */
 .bgPortada {
-	background-image: url("../img/fondoTemporal.webp");
+	background-image: url("../img/Anillos.jpg");
 	background-position: 50%, 50%;
 }
 
@@ -162,7 +162,7 @@
 /* FINAL */
   
 .bgFinal {
-	background-image: url("../img/fondoTemporal.webp");
+	background-image: url("../img/CruzTexto.jpg");
 	background-position: 50% 50%;
 }
 
